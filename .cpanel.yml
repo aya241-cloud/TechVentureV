@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - /bin/echo 'Starting deployment'
+    - /bin/cp -r * /home/zarrwktw/public_html/
+    - /bin/echo 'Deployment complete'
