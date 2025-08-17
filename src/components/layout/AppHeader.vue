@@ -1,7 +1,7 @@
 <template>
-  <header class="w-full header-carousel max-sm:!sticky max-sm:!z-100 sticky z-100 transition-all duration-300 flex flex-nowrap justify-start  bg-white 
+  <header class="w-full header-carousel h-[90px] max-sm:!sticky max-sm:!z-100 sticky z-100 transition-all duration-300 flex flex-nowrap justify-start  bg-white 
             before:absolute before:content-[''] before:w-full before:h-[10px] before:top-0 before:left-0 
-            before:bg-[url('@/assets/images/bg-header-top.png')] before:bg-center before:bg-repeat-x before:z-10
+            /* Removed missing bg-header-top.png */ before:bg-center before:bg-repeat-x before:z-10
             after:absolute after:content-[''] after:w-full after:h-[19px] after:bottom-0 after:left-0 
             after:bg-[url('@/assets/images/bg-header-bottom.png')] after:bg-center after:bg-repeat-x after:z-10"
         :class="{

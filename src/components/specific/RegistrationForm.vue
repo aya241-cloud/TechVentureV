@@ -18,10 +18,6 @@
   </div>
 </template>
 
-<script setup>
-// No script logic is needed for this simple component.
-</script>
-
 <style scoped>
 /* You can add custom styles here if needed, but Tailwind is handling it. */
 .animate-fadeInUp {

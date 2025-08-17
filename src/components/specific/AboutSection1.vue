@@ -124,7 +124,3 @@ onBeforeUnmount(() => {
   window.removeEventListener('scroll', handleScroll);
 });
 </script>
-
-<style scoped>
-/* Add any component-specific styles here */
-</style>

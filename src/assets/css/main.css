@@ -1,8 +1,9 @@
-@import "tailwindcss";
-@import './custom.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss";
+@import './custom.css';
+
 
 /* Custom animations */
 @keyframes slideUp {

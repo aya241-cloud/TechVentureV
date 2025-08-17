@@ -118,8 +118,3 @@ onBeforeUnmount(() => {
   window.removeEventListener('scroll', handleScroll);
 });
 </script>
-
-<style scoped>
-/* You can add custom styles here if needed */
-/* Font Awesome icons are assumed to be included in your project */
-</style>
